@@ -149,9 +149,9 @@ li {
 
 @media (max-width: 488px) {
     .footer-link {
-        font-size: 17px;
+        font-size: 14px;
         font-weight: 100;
-        padding-left: 30px;
+        padding-left: 14px;
     }
 }
 @media (max-width: 435px) {
@@ -164,7 +164,7 @@ li {
     .footer-link {
         font-size: 16px;
         font-weight: 100;
-        padding-left: 22px;
+        padding-left: 15px;
     }
   }
   @media (max-width: 375px) {
