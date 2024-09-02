@@ -234,6 +234,13 @@ li {
     .main-section .sub-heading h3{
         font-size: 18px;
     }
+    .footer-para-logo{
+        font-size: 12px;
+        margin: 0;
+    }
+    .footer-div-mar{
+        padding-bottom: 20px;
+    }
   }
   @media (max-width: 375px) {
     .button {
