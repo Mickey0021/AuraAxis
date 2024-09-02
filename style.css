@@ -186,6 +186,20 @@ li {
     
 }
 
+@media (max-width: 767px) {
+
+    .main-section{
+        height: 80vh;
+    }
+    .main-section .heading h1{
+        font-size: 46px;
+    }
+
+    .main-section-img{
+        display: none !important;
+    }
+}
+
 @media (max-width: 488px) {
     .footer-link {
         font-size: 14px;
@@ -198,18 +212,27 @@ li {
     .border-right-para{
         border-right: 21px solid #FAD02C;
     }
+    .main-section .heading h1 {
+        font-size: 37px;
+    }
 }
 @media (max-width: 435px) {
     .button {
         padding: 0.5rem 1rem;
       }
     .button__label {
-        font-size: 17.25px;
+        font-size: 14.25px;
     }
     .footer-link {
         font-size: 16px;
         font-weight: 100;
         padding-left: 15px;
+    }
+    .main-section .heading h1 {
+        font-size: 30px;
+    }
+    .main-section .sub-heading h3{
+        font-size: 18px;
     }
   }
   @media (max-width: 375px) {
