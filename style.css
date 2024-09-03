@@ -80,6 +80,39 @@
     border-radius: 36px;
 }
 
+/* do not group these rules */
+*::-webkit-input-placeholder {
+    color: #9A9797 !important;
+    font-size: 1rem;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: #9A9797 !important;
+    font-size: 1rem;
+    opacity: 1;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: #9A9797 !important;
+    font-size: 1rem;
+    opacity: 1;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #9A9797 !important;
+    font-size: 1rem;
+}
+*::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #9A9797 !important;
+    font-size: 1rem;
+}
+*::placeholder {
+    /* modern browser */
+    color: #9A9797 !important;
+    font-size: 1rem;
+}
+
 /* home */
 
 section{
@@ -353,6 +386,10 @@ li {
         font-size: 15px;
         font-weight: 100;
         padding-left: 16px;
+    }
+    .para-contact {
+        font-size: 17px;
+        color: #fff;
     }
 }
 
